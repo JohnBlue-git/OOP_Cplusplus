@@ -67,5 +67,5 @@ int main() {
   EncapsulationExample Example(3);
   //EncapsulationExample Example = 3;// not work, since explicit type restrict the implicit conversion
   Example.publicObjectMethod();
-  Example.publicClassMethod();
+  EncapsulationExample::publicClassMethod();
 }
